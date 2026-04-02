@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+.mission-values-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2.5rem;
+  background-color: #3d2318;
+  padding: 150px;
+}
+
+@media (min-width: 768px) {
+  .mission-values-section {
+    flex-direction: row;
+  }
+}
+
+@media (max-width: 767px) {
+  .mission-values-section {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
+.mission-values-image-wrapper {
+  position: relative;
+  box-shadow: 0 25px 50px -12px #f2ebe1;
+  border-radius: 1rem;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.mission-values-content {
+  font-size: 16px;
+  color: #f2ebe1;
+  max-width: 400px;
+}
+
+.mission-values-heading {
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: black;
+  margin: 0;
+}
+
+.mission-values-divider {
+  width: 250px;
+  height: 8px;
+  border-radius: 9999px;
+  background: linear-gradient(to left, #46f2e4, #ddd9ff);
+  margin-top: 0.25rem;
+}
+
+.mission-values-paragraph {
+  margin-top: 2rem;
+  line-height: 1.6;
+}
+
+.mission-values-paragraph-spaced {
+  margin-top: 1rem;
+  line-height: 1.6;
+}

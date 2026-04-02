@@ -1,0 +1,130 @@
+.menu-categories-section {
+  background: linear-gradient(180deg, #3d2318 0%, #2d1912 100%);
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+
+.menu-categories-container {
+  width: 100%;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 80rem;
+}
+
+@media (min-width: 640px) {
+  .menu-categories-container {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .menu-categories-container {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+}
+
+.menu-categories-title {
+  font-size: 36px;
+  color: white;
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.menu-categories-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+}
+
+@media (min-width: 640px) {
+  .menu-categories-grid {
+    gap: 24px;
+  }
+}
+
+@media (min-width: 768px) {
+  .menu-categories-grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}
+
+.menu-categories-card {
+  background-color: #f2ebe1;
+  border-radius: 14px;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+  padding: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  transition:
+    transform 0.22s ease,
+    box-shadow 0.22s ease;
+}
+
+@media (min-width: 640px) {
+  .menu-categories-card {
+    padding: 24px;
+  }
+}
+
+.menu-categories-card-image {
+  width: 100%;
+  height: 144px;
+  object-fit: cover;
+  border-radius: 6px;
+  margin-bottom: 12px;
+}
+
+@media (min-width: 640px) {
+  .menu-categories-card-image {
+    height: 192px;
+  }
+}
+
+@media (min-width: 768px) {
+  .menu-categories-card-image {
+    height: 240px;
+  }
+}
+
+.menu-categories-card-title {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+@media (min-width: 640px) {
+  .menu-categories-card-title {
+    font-size: 20px;
+  }
+}
+
+.menu-categories-card-link {
+  font-size: 12px;
+  font-weight: 600;
+  color: #5c3d2e;
+  margin-top: 8px;
+  display: block;
+  transition: color 0.2s;
+}
+
+@media (min-width: 640px) {
+  .menu-categories-card-link {
+    font-size: 14px;
+    margin-top: 16px;
+  }
+}
+
+.menu-categories-card-link:hover {
+  color: #4a2f22;
+}
+
+.menu-categories-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 18px 28px rgba(0, 0, 0, 0.25);
+}

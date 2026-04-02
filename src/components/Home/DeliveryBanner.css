@@ -1,0 +1,102 @@
+.delivery-banner-section {
+  background-color: #f2ebe1;
+  padding-top: 48px;
+  padding-bottom: 48px;
+}
+
+.delivery-banner-container {
+  width: 100%;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 80rem;
+  text-align: center;
+}
+
+@media (min-width: 640px) {
+  .delivery-banner-container {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .delivery-banner-container {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+}
+
+.delivery-banner-image {
+  width: 100%;
+  height: 256px;
+  object-fit: cover;
+  border-radius: 6px;
+  margin-bottom: 24px;
+}
+
+@media (min-width: 640px) {
+  .delivery-banner-image {
+    height: 384px;
+    margin-bottom: 32px;
+  }
+}
+
+@media (min-width: 768px) {
+  .delivery-banner-image {
+    height: 500px;
+  }
+}
+
+.delivery-banner-title {
+  font-size: 30px;
+  color: #1f2937;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 24px;
+}
+
+@media (min-width: 640px) {
+  .delivery-banner-title {
+    font-size: 36px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .delivery-banner-title {
+    font-size: 48px;
+  }
+}
+
+.delivery-banner-description {
+  font-size: 18px;
+  color: #374151;
+  margin-bottom: 32px;
+}
+
+@media (min-width: 640px) {
+  .delivery-banner-description {
+    font-size: 20px;
+  }
+}
+
+.delivery-banner-cta {
+  display: inline-block;
+  background-color: #5c3d2e;
+  color: white;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border-radius: 9999px;
+  font-size: 18px;
+  font-weight: 500;
+  transition: background-color 0.3s;
+}
+
+.delivery-banner-cta:hover {
+  background-color: #4a2f22;
+}

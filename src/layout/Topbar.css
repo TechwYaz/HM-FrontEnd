@@ -1,0 +1,52 @@
+.topbar {
+  background-color: #3c2218;
+  color: white;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  font-size: 14px;
+}
+
+.topbar-container {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.topbar-contact-info {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.topbar-contact-link {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  transition: color 0.2s;
+}
+
+.topbar-contact-link:hover {
+  color: #d1d5db;
+}
+
+.topbar-social-links {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.topbar-social-link {
+  transition: color 0.2s;
+}
+
+.topbar-social-link:hover {
+  color: #d1d5db;
+}
+
+.topbar-icon {
+  display: inline-block;
+}

@@ -1,0 +1,73 @@
+.not-found-page {
+  min-height: 70vh;
+  display: grid;
+  place-items: center;
+  padding: 2rem 1rem 3rem;
+  background:
+    radial-gradient(
+      circle at 85% 15%,
+      rgba(191, 95, 62, 0.14),
+      transparent 30%
+    ),
+    radial-gradient(
+      circle at 15% 20%,
+      rgba(21, 129, 120, 0.1),
+      transparent 32%
+    ),
+    linear-gradient(180deg, #f8f4ec 0%, #efe5d3 100%);
+}
+
+.not-found-card {
+  width: min(640px, 100%);
+  background: rgba(255, 255, 255, 0.9);
+  border: 1px solid rgba(126, 101, 84, 0.2);
+  border-radius: 1rem;
+  box-shadow: 0 10px 28px rgba(34, 30, 24, 0.08);
+  padding: 1.2rem;
+  text-align: center;
+}
+
+.not-found-code {
+  margin: 0;
+  font-size: clamp(2.2rem, 8vw, 4rem);
+  line-height: 1;
+  font-weight: 800;
+  letter-spacing: 0.05em;
+  color: #7f4c36;
+}
+
+.not-found-card h1 {
+  margin: 0.35rem 0 0.6rem;
+  color: #1f2421;
+}
+
+.not-found-card p {
+  margin: 0;
+  color: #5f5a53;
+}
+
+.not-found-actions {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  gap: 0.6rem;
+  flex-wrap: wrap;
+}
+
+.not-found-btn {
+  text-decoration: none;
+  border-radius: 0.7rem;
+  padding: 0.5rem 0.8rem;
+  font-weight: 700;
+  border: 1px solid #4b3832;
+}
+
+.not-found-btn.primary {
+  background: #4b3832;
+  color: #fff;
+}
+
+.not-found-btn.secondary {
+  background: transparent;
+  color: #4b3832;
+}

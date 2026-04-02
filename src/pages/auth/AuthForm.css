@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Inter:wght@400;600&display=swap");
+
+.page-wrapper {
+  background-color: #fdfaf6;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Inter", sans-serif;
+}
+
+.login-card {
+  background: white;
+  padding: 3rem;
+  border: 3px solid #4b3832;
+  /* The "Hand-Drawn" look */
+  border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+  box-shadow: 12px 12px 0px #d8cfc4;
+  width: 100%;
+  max-width: 400px;
+  position: relative;
+  text-align: center;
+}
+
+.auth-top-actions {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 1rem;
+}
+
+.home-link-button {
+  border: 2px solid #4b3832;
+  background: linear-gradient(180deg, #fffdf9 0%, #f0e5d8 100%);
+  color: #3b2a24;
+  text-decoration: none;
+  font-family: "Architects Daughter", cursive;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  font-size: 0.95rem;
+  padding: 7px 14px;
+  border-radius: 999px;
+  box-shadow: 3px 3px 0 rgba(75, 56, 50, 0.25);
+  transition:
+    transform 0.2s,
+    background-color 0.2s,
+    color 0.2s,
+    box-shadow 0.2s;
+}
+
+.home-link-button:hover {
+  background-color: #4b3832;
+  color: #fff;
+  transform: translateY(-1px);
+  box-shadow: 5px 5px 0 rgba(75, 56, 50, 0.2);
+}
+
+.home-link-button:focus-visible {
+  outline: 2px solid #4b3832;
+  outline-offset: 2px;
+}
+
+.brand-title {
+  font-family: "Architects Daughter", cursive;
+  font-size: 2.5rem;
+  color: #2c1e1a;
+  margin: 0;
+}
+
+.subtitle {
+  font-size: 0.9rem;
+  color: #8d7770;
+  margin-bottom: 2rem;
+}
+
+.input-group {
+  text-align: left;
+  margin-bottom: 1.5rem;
+}
+
+.input-group label {
+  display: block;
+  font-family: "Architects Daughter", cursive;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: #4b3832;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 12px;
+  border: 2px solid #4b3832;
+  border-radius: 15px 225px 15px 255px/255px 15px 225px 15px;
+  font-size: 1rem;
+  background: transparent;
+  outline: none;
+  transition: all 0.2s;
+}
+
+.input-group input:focus {
+  background-color: #fffdfa;
+  transform: scale(1.01);
+}
+
+.brew-btn {
+  width: 100%;
+  padding: 14px;
+  background-color: #4b3832;
+  color: white;
+  border: none;
+  font-family: "Architects Daughter", cursive;
+  font-size: 1.25rem;
+  cursor: pointer;
+  border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+  transition:
+    transform 0.2s,
+    background-color 0.2s;
+}
+
+.brew-btn:hover:not(:disabled) {
+  background-color: #6d4c41;
+  transform: rotate(-1deg) scale(1.03);
+}
+
+.brew-btn:disabled {
+  background-color: #a3938e;
+  cursor: not-allowed;
+}
+
+.form-message {
+  margin-top: 0.85rem;
+  font-size: 0.9rem;
+  text-align: left;
+}
+
+.error-message {
+  color: #9f1d1d;
+}
+
+.footer-links {
+  margin-top: 1.5rem;
+  font-size: 0.85rem;
+}
+
+.footer-links a {
+  color: #4b3832;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.coffee-stain {
+  position: absolute;
+  bottom: -20px;
+  right: -20px;
+  width: 100px;
+  height: 100px;
+  border: 4px solid rgba(75, 56, 50, 0.08);
+  border-radius: 50%;
+  pointer-events: none;
+}

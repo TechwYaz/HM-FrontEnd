@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+
+.barista-team-container {
+  display: flex;
+  flex-direction: row;
+  min-height: 100vh;
+}
+
+.barista-team-left {
+  flex: 0 0 43%;
+  background-color: #f2ebe1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4rem 3rem;
+}
+
+.barista-team-text-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: black;
+  max-width: 500px;
+  gap: 1.5rem;
+}
+
+.barista-team-heading {
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 0;
+  line-height: 1.2;
+}
+
+.barista-team-paragraph {
+  font-size: 0.9rem;
+  line-height: 1.7;
+  margin: 0;
+  opacity: 0.95;
+}
+
+.barista-team-stats-wrapper {
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.barista-team-stats-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  text-align: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.barista-team-stat-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.barista-team-stat-value {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: #46f2e4;
+  line-height: 1.1;
+  margin: 0;
+}
+
+.barista-team-stat-name {
+  font-size: 20px;
+  color: black;
+  margin: 0;
+  line-height: 1.4;
+}
+
+.barista-team-right {
+  flex: 1;
+  width: 100px;
+  height: 100vh;
+  object-fit: cover;
+  display: block;
+}
+
+@media (max-width: 768px) {
+  .barista-team-container {
+    flex-direction: column;
+  }
+
+  .barista-team-left {
+    flex: none;
+    padding: 3rem 1.5rem;
+  }
+
+  .barista-team-right {
+    height: 50vh;
+    width: 100vh;
+  }
+
+  .barista-team-stats-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .barista-team-stat-value {
+    font-size: 2rem;
+  }
+}
